@@ -1,0 +1,2 @@
+[environments.development]
+store = "https://dk-test-s.myshopify.com/"

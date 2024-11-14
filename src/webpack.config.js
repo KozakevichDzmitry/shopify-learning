@@ -12,6 +12,7 @@ const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 
 const entryPoints = {
   'header': './js/header',
+  'mission': './styles/mission.scss',
 };
 
 module.exports = (env, argv) => {
@@ -74,7 +75,7 @@ module.exports = (env, argv) => {
       isDev && new BrowserSyncPlugin(
           {
             open: true,
-            proxy: 'http://localhost:8000/',
+            proxy: 'http://127.0.0.1:9292',
           },
           // Prevent BrowserSync from reloading the page and let Webpack take care of this
           {

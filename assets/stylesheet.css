@@ -1,0 +1,33 @@
+@font-face {
+    font-display: swap;
+    font-family: 'SofiaPro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./SofiaProLight.woff2') format('woff2'),
+    url('./SofiaProLight.ttf') format('truetype');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'SofiaPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./SofiaProRegular.woff2') format('woff2'),
+    url('./SofiaProRegular.ttf') format('truetype');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'SofiaPro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./SofiaProSemiBold.woff2') format('woff2'),
+    url('./SofiaProSemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./alata-v11-latin-regular.woff2') format('woff2'),
+    url('./alata-v11-latin-regular.ttf') format('truetype');
+}
