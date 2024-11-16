@@ -29,8 +29,10 @@ class HeaderScrolling extends HTMLElement {
     }
     connectedCallback(){
         document.addEventListener('DOMContentLoaded', () => {
-            const firstSection = document.querySelector('main > section');
-            console.log(firstSection)
+            const firstSection = document.querySelector('main > .section');
+
+            if(!firstSection) return
+
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (!entry.isIntersecting) {
